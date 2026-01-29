@@ -5,7 +5,7 @@ import re
 # =========================
 # Load pipeline model
 # =========================
-with open("model_news.pkl(2)", "rb") as f:
+with open("model_news.pkl(2)", "wb") as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="Fake News Detection", layout="centered")
